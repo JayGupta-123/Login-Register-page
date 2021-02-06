@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Register Page</title>
+</head>
+<body>
+    <div class="mainbox">
+        <div class="buttonbox">
+            <div class="btn"></div>
+            <button class="togglebtn" onclick="loginMove()">Login</button>
+            <button class="togglebtn" onclick="registerMove()">Register</button>
+        </div>
+        <div class="socialicon">
+            <img class="g" src="search.png">
+            <img class="f" src="facebook.png">
+            <img class="t" src="twitter.png">
+        </div>
+
+        <div id="loginform" class="form">
+            <input class="input" type="text" placeholder="Username">
+            <input class="input" type="password" placeholder="Password">
+            <input type="checkbox"> <span>Keep me logged in</span> <br> <br> <br>
+            <center><button class="submit">Login</button></center>
+        </div>
+
+        <div id="registerform" class="form">
+            <input class="input" type="text" placeholder="Username">
+            <input class="input" type="email" placeholder="Email">
+            <input class="input" type="password" placeholder="Password">
+            <input type="checkbox"> <span>I agree to the terms and conditions</span> <br> <br> <br>
+            <center><button class="submit">Register</button></center>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
